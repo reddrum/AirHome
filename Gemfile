@@ -19,6 +19,8 @@ gem 'toastr-rails', '~> 1.0', '>= 1.0.3'
 gem 'omniauth', '~> 1.8', '>= 1.8.1'
 gem 'omniauth-facebook', '~> 5.0'
 gem 'paperclip', '~> 6.1'
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'figaro'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
