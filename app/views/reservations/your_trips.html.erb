@@ -32,6 +32,9 @@
                 <% end %>
               </span>
             </div>
+            <div class="col-md-3 text-right">
+              <%= render partial: "reviews/guest_form", locals: {reservation: trip} %>
+            </div>
           </div>
           <hr/>
         <% end %>
