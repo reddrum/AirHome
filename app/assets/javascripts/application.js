@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require jquery
 //= require jquery-ui/datepicker
+//= require jquery-ui/slider
 //= require toastr
 //= require bootstrap-sprockets
 //= require activestorage
