@@ -15,6 +15,11 @@
 //= require jquery-ui/datepicker
 //= require jquery-ui/slider
 //= require toastr
+//= require moment 
+//= require fullcalendar
+//= require fullcalendar/locale-all
 //= require bootstrap-sprockets
 //= require activestorage
 //= require_tree .
+
+$('#calendar').fullCalendar({});

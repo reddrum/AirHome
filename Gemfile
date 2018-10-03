@@ -25,6 +25,8 @@ gem 'geocoder', '~> 1.5'
 gem 'jquery-ui-rails', '~> 5.0.5'
 gem 'ransack'
 gem 'twilio-ruby', '~> 5.14'
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
