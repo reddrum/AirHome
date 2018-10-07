@@ -18,6 +18,7 @@
 //= require moment 
 //= require fullcalendar
 //= require fullcalendar/locale-all
+//= require card
 //= require bootstrap-sprockets
 //= require activestorage
 //= require_tree .

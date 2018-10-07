@@ -27,6 +27,8 @@ gem 'ransack'
 gem 'twilio-ruby', '~> 5.14'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
+gem 'stripe', '~> 3.28'
+gem 'rails-assets-card', source: 'https://rails-assets.org'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
