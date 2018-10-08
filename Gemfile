@@ -29,6 +29,7 @@ gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'stripe', '~> 3.28'
 gem 'rails-assets-card', source: 'https://rails-assets.org'
+gem 'omniauth-stripe-connect', '~> 2.10', '>= 2.10.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
