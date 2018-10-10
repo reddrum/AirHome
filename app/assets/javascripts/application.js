@@ -19,6 +19,8 @@
 //= require fullcalendar
 //= require fullcalendar/locale-all
 //= require card
+//= require Chart.bundle
+//= require chartkick
 //= require bootstrap-sprockets
 //= require activestorage
 //= require_tree .
