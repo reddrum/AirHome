@@ -60,6 +60,15 @@ class ReservationsController < ApplicationController
   
   private
 
+    def send_sms(room,reservation)
+      @client = Twilio::REST::Client.new
+      @client.messages.create(
+        from: '+18632679637',
+        to: room.user.phone_number,
+        body: "#{reservation.user.fullname} booked your '#{room.listing_name}'"
+      )
+    end
+
     def charge(room, reservation)
       if !reservation.user.stripe_id.blank?
         customer = Stripe::Customer.retrieve(reservation.user.stripe_id)
