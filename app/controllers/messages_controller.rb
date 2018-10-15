@@ -22,6 +22,10 @@ class MessagesController < ApplicationController
   end
 
   private
+  
+    def render_message(message)
+      self.render(partial: 'messages/message', locals: {message: message})
+    end
 
     def set_conversation
       @conversation = Conversation.find(params[:conversation_id])

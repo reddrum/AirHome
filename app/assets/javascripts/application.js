@@ -21,6 +21,7 @@
 //= require card
 //= require Chart.bundle
 //= require chartkick
+//= require cable
 //= require bootstrap-sprockets
 //= require activestorage
 //= require_tree .
